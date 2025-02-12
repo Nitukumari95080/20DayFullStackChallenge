@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Courier New', Courier, monospace;
+}
+html,body{
+    font-weight: 300;
+    line-height: 1.4;
+    scroll-behavior: smooth;
+}
+a{
+    text-decoration: none;
+}
+body{
+    display: flex;
+}
+header{
+    border: 1px solid #ccc;
+    height: 100vh;
+}
+nav h1{
+    font-size: 25px;
+    font-weight: 300;
+    padding: 10px;
+    border-bottom: 1px;
+}
+nav ul{
+    list-style: none;
+}
+nav ul li{
+    border: 1px solid #ccc;
+    padding: 10px;
+    color: black;
+}
+nav ul li:hover{
+    background: #ccc;
+    transition: 0.3s ease-in-out;
+}
