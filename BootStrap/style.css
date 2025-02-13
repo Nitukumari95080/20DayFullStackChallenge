@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* .navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: 25px;
+} */
+header{
+    background: #fff;
+}
+.carousel-item {
+    height: 1000px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+ .content {
+    width: 75%;
+    position: absolute;
+    top: 35%;
+}
+.logo-header{
+    display: flex;
+    position: relative;
+    left: 50%;
+}
+.slide{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(15, 26, 23, 0.8);
+}
+h4 {
+    display: block;
+    font-weight: bold;
+    font-size: 20rem;
+}
+
+.card-img{
+    position: relative;
+    top: -40%; /* Yeh card ko 40% upar le ja raha hai */
+    z-index: 10;
+}
+.custom-col {
+    height: 500px;
+    align-items: flex-end;
+    transition: all .2s ease-in-out;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background: linear-gradient(rgb(11, 55, 50), rgb(5, 69, 53)), ;
+    color: white; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 20px;
+    z-index: 1;
+}
