@@ -41,19 +41,14 @@ h4 {
     font-size: 20rem;
 }
 
-.card-img{
-    position: relative;
-    top: -40%; /* Yeh card ko 40% upar le ja raha hai */
-    z-index: 10;
-}
 .custom-col {
-    height: 500px;
-    align-items: flex-end;
+    height: 400px;
+    position: absolute;
+    top: 110%;
     transition: all .2s ease-in-out;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background: linear-gradient(rgb(11, 55, 50), rgb(5, 69, 53)), ;
     color: white; 
     display: flex;
     align-items: center;
